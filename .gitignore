@@ -50,6 +50,7 @@ coverage.xml
 *.lcov
 .hypothesis/
 .pytest_cache/
+.playwright-mcp/
 cover/
 
 # Translations
@@ -95,7 +96,7 @@ ipython_config.py
 #   install all needed dependencies.
 # Pipfile.lock
 
-# uv
+# UV
 #   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
 #   commonly ignored for libraries.
@@ -152,7 +153,7 @@ activemq-data/
 # Environments
 .env
 .envrc
-.venv
+.venv/
 env/
 venv/
 ENV/
@@ -166,7 +167,7 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs/Zensical documentation
+# mkdocs documentation
 /site
 
 # mypy
